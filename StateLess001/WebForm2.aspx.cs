@@ -9,6 +9,7 @@ namespace StateLess001
 {
     public partial class WebForm2 : System.Web.UI.Page
     {
+        private int conteo = 1;
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -19,8 +20,14 @@ namespace StateLess001
 
         protected void btnIncrementa_Click(object sender, EventArgs e)
         {
-            int conteo = Convert.ToInt32(txtConteo.Text) + 1;
+
+            if (ViewState["click"] != null) 
+            {
+                conteo = (int)ViewState["click"] + 1;
+            }
+         
             txtConteo.Text = conteo.ToString();
+            ViewState["click"] = conteo;
         }
     }
 }
