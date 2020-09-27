@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariablesSesion04", "Variab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlesEventos05", "ControlesEventos05\ControlesEventos05.csproj", "{B06FBF31-1B0B-4370-8411-2D85CB99308B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boton06", "Boton06\Boton06.csproj", "{4AFC950E-78AA-42DF-9A40-D01EE4D5FF00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{B06FBF31-1B0B-4370-8411-2D85CB99308B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B06FBF31-1B0B-4370-8411-2D85CB99308B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B06FBF31-1B0B-4370-8411-2D85CB99308B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AFC950E-78AA-42DF-9A40-D01EE4D5FF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AFC950E-78AA-42DF-9A40-D01EE4D5FF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AFC950E-78AA-42DF-9A40-D01EE4D5FF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AFC950E-78AA-42DF-9A40-D01EE4D5FF00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
