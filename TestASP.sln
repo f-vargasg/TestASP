@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boton06", "Boton06\Boton06.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioBtn07", "RadioBtn07\RadioBtn07.csproj", "{8A752058-59DA-4F15-80FB-47BC3BC3E660}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckBox08", "CheckBox08\CheckBox08.csproj", "{67747DF8-48BE-402B-A7B0-9C5F7E519610}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkLinkButton09", "LinkLinkButton09\LinkLinkButton09.csproj", "{3BCF221B-C06F-41C0-A1DD-B5BDDC738850}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{8A752058-59DA-4F15-80FB-47BC3BC3E660}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A752058-59DA-4F15-80FB-47BC3BC3E660}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A752058-59DA-4F15-80FB-47BC3BC3E660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67747DF8-48BE-402B-A7B0-9C5F7E519610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67747DF8-48BE-402B-A7B0-9C5F7E519610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67747DF8-48BE-402B-A7B0-9C5F7E519610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67747DF8-48BE-402B-A7B0-9C5F7E519610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BCF221B-C06F-41C0-A1DD-B5BDDC738850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BCF221B-C06F-41C0-A1DD-B5BDDC738850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BCF221B-C06F-41C0-A1DD-B5BDDC738850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BCF221B-C06F-41C0-A1DD-B5BDDC738850}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
