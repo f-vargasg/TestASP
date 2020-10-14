@@ -30,5 +30,18 @@ namespace FileUpload16
                 Response.Write(d.ToShortDateString() + "</br>");
             }
         }
+
+        protected void Calendar1_DayRender(object sender, DayRenderEventArgs e)
+        {
+            if (e.Day.IsToday)
+            {
+                e.Cell.Text = "Hoy";
+            }
+
+            if (e.Day.IsWeekend)
+            {
+                e.Day.IsSelectable = false;
+            }
+        }
     }
 }
